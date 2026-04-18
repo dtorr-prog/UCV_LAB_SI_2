@@ -1,0 +1,23 @@
+[project]
+name = "laboratorio2-ia"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Luciana Palomino"}
+]
+requires-python = "^3.11"
+dependencies = [
+    "opencv-python (>=4.13.0.92,<5.0.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
